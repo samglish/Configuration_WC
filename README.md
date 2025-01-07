@@ -50,3 +50,6 @@ phy0	wlan0		iwlwifi		Intel Corporation Wireless 7260 (rev 6b)
 		(mac80211 monitor mode vif enabled for [phy0]wlan0 on [phy0]wlan0mon)
 		(mac80211 station mode vif disabled for [phy0]wlan0)
 ```
+our card is in `wlan0mon` monitoring mode so we can use it to carry out attacks etc.
+
+sudo iwconfig wlan0mon mode managed
