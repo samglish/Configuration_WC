@@ -29,5 +29,24 @@ wlan0     IEEE 802.11  ESSID:"4G_WIFI_GLISH"
 ```bash
 iwconfig wlan0 txpower 30
 ```
+
+```bash 
+sudo airmon-ng start wlan0
+```
 output
+```
+Found 2 processes that could cause trouble.
+Kill them using 'airmon-ng check kill' before putting
+the card in monitor mode, they will interfere by changing channels
+and sometimes putting the interface back in managed mode
+
+    PID Name
+   1110 NetworkManager
+   1135 wpa_supplicant
+
+PHY	Interface	Driver		Chipset
+
+phy0	wlan0		iwlwifi		Intel Corporation Wireless 7260 (rev 6b)
+		(mac80211 monitor mode vif enabled for [phy0]wlan0 on [phy0]wlan0mon)
+		(mac80211 station mode vif disabled for [phy0]wlan0)
 ```
