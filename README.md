@@ -29,3 +29,5 @@ wlan0     IEEE 802.11  ESSID:"4G_WIFI_GLISH"
 ```bash
 iwconfig wlan0 txpower 30
 ```
+output
+```
