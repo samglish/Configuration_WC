@@ -52,4 +52,13 @@ phy0	wlan0		iwlwifi		Intel Corporation Wireless 7260 (rev 6b)
 ```
 our card is in `wlan0mon` monitoring mode so we can use it to carry out attacks etc.
 
+other methods.
+
+`managed mode`
+```bash
 sudo iwconfig wlan0mon mode managed
+```
+`monitor mode`
+```bash
+sudo iwconfig wlan0mon mode managed
+```
