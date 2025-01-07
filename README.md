@@ -25,5 +25,7 @@ wlan0     IEEE 802.11  ESSID:"4G_WIFI_GLISH"
           Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
           Tx excessive retries:2  Invalid misc:6   Missed beacon:0
 ```
-### my dBm is 22 we can increase it.
+### my dBm is 22 we can increase it to 30. 
 ```bash
+iwconfig wlan0 txpower 30
+```
