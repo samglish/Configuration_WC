@@ -26,3 +26,4 @@ wlan0     IEEE 802.11  ESSID:"4G_WIFI_GLISH"
           Tx excessive retries:2  Invalid misc:6   Missed beacon:0
 ```
 ### my dBm is 22 we can increase it.
+```bash
