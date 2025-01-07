@@ -1,5 +1,5 @@
 # Configuration_WC
-### wireless attack - ethical hacking
+## wireless attack - ethical hacking
 
 Before starting the configuration phase, the first thing to do is to be able to configure the wifi card adequately.
 
@@ -25,3 +25,4 @@ wlan0     IEEE 802.11  ESSID:"4G_WIFI_GLISH"
           Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
           Tx excessive retries:2  Invalid misc:6   Missed beacon:0
 ```
+### my dBm is 22 we can increase it.
